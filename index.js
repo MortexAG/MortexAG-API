@@ -11,6 +11,8 @@ app.get('/github', (req, res) => {
   res.status(200).send({
     my_account:"https://github.com/MortexAG",
     my_site: 'https://github.com/MortexAG/mortexagsite',
+    php_login_form:'https://github.com/MortexAG/PHP-Login-Form',
+    database_table_editing_tool:'https://github.com/MortexAG/Database-Table-Editing-Tool',
     currency_converter: 'https://github.com/MortexAG/Currency-Converter',
     file_encryption_tool:'https://github.com/MortexAG/Reactive-File-encryption-decryption',
     telegram_bots: {
@@ -28,6 +30,8 @@ app.get('/github', (req, res) => {
 app.get('/replit', (req, res) => {
   res.status(200).send({
     my_account:'https://replit.com/@MortexAG',
+    my_social_media_site:'https://replit.com/@MortexAG/CalmGamersSocial#README.md',
+    php_login_form:'https://replit.com/@MortexAG/PHP-Login-Form',
     discord_bots:{ calm_gamers_music_bot:'https://replit.com/@MortexAG/CalmGamersBot',
 calm_gamers_bot_commands:'https://replit.com/@MortexAG/CalmGamersBotCommands',
       gamers_music_bot_v1:'https://replit.com/@MortexAG/GamersMusicBot',

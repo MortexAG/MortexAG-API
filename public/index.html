@@ -1,19 +1,66 @@
-
+<!--
 <title>MortexAG API</title>
-<meta http-equiv="refresh" content="3; URL=https://mortexagsite.cyou/" />
+  <meta http-equiv="refresh" content="3; URL=https://mortexagsite.cyou/" /> 
 <center><h1>You Are Being Redirected To The Main Site</h1>
 <h3>If Your Browser Doesn't Support Auto Redirecting Please Use This Button</h3>
 <button><a href="https://mortexagsite.cyou">Main Site</a></button></center>
+-->
 
-<!--
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>MortexAG API</title>
-  </head>
-  <body>
-    <p>Here Will Be The API Documentation</p>
-    <p>I Will Try To Add A Tool To Call The API From The Main Site</p>
-  </body>
-</html>
+<head>
+  <link rel="stylesheet" href="styles/styles1.css">
+  <link rel="icon" href="https://i.ibb.co/28717vP/anime-profile-pic-small.png">
+  <script type="text/javascript" src="scripts/script1.js"></script>
+  <title>MortexAG</title>
+</head>
+<body>
+  <div class="margin"></div>
+  <section class="parallax" id="top_div">
+  <div class="parallax-inner">
+    <img src="https://i.ibb.co/RvzBsgn/180700.png" alt="Switch To Dark Mode" class="dark_mode_moon" onclick="light_mode()" title="Switch To Light Mode" id="dark_mode_moon">
+    <div class="clearfix">
+    
+    <img src="https://i.ibb.co/28717vP/anime-profile-pic-small.png" class="profile_pic">
+      <p class="welcome">MortexAG API Documentation</p>
+     <p>You Can Use The Get Function With This API</p>
+        <p>A Post Function Maybe Added In The Future For A Project That Doesn't Exist Yet</p>
+        <p>Choose A Field Below To See What Will Result From The Get</p>
+      <p>Until Now I Added Only My Project Links In Here Until I Find Better Use For The API</p>
+  </div>
+  </div>
+  </section>
+  <div class="margin" style="margin-top:20px;"></div>
+  <section class="parallax" id="mid_div">
+    <ul style="position: sticky;border-radius:14px;" class="inactive" id="ul_1">
+  <li><a class="active" id="but_active" onclick="button_active(); show_github();" value="github">Github</a></li>
+  <li><a onclick="button_active(); show_replit();"  id="but_inactive" class="inactive" value="replit">Replit</a></li>
+  <li><a onclick="button_active(); show_my_api();" class="inactive" id="but_inactive" value="my_api">Main Site</a></li>
+</ul>
+  <section class="conatiner-parallax" id="bottom_div">
+    <!-- Github DIV !-->
+    <div class="visible github" id='github'>
+    <p>This My Github Account</p>
+      <p>You Will Request '/github'</p>
+    <p><a href="https://github.com/MortexAG" target="_blank">https://github.com/MortexAG</a></p>
+    <p>What You Will Get When Requesting Github Are All My Repos' Links</p>
+    </div>
+    <!-- Replit DIV !-->
+        <div class="invisible" id='replit'>
+    <p>This My Replit Account</p>
+          <p>You Will Request '/replit'</p>
+    <p><a href="https://replit.com/@MortexAG" target="_blank">https://replit.com/@MortexAG</a></p>
+    <p>I Run Mostly Bots in Here, Telegram And Discord Bots</p>
+        </div>
+    <!-- MY API DIV !-->
+    <div class="invisible" id='my_api'>
+    <p>Return To The Main Site</p>
+    <a href="https://mortexagsite.cyou" target="_blank"><p>mortexagsite.cyou</p></a>
+        </div>
+  </section>
+  </section>
+</div>
+</body>
 
-  !-->
+</html>
+  
